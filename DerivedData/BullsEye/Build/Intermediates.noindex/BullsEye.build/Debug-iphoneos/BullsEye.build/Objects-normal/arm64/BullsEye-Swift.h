@@ -184,6 +184,30 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Wnullability"
 
 SWIFT_MODULE_NAMESPACE_PUSH("BullsEye")
+@class NSBundle;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8BullsEye21AboutMeViewController")
+@interface AboutMeViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (IBAction)closeTapped:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIWebView;
+
+SWIFT_CLASS("_TtC8BullsEye19AboutViewController")
+@interface AboutViewController : UIViewController
+- (void)viewDidLoad;
+@property (nonatomic, weak) IBOutlet UIWebView * _Null_unspecified webView;
+- (void)didReceiveMemoryWarning;
+- (IBAction)close;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIWindow;
 @class UIApplication;
 
@@ -199,12 +223,18 @@ SWIFT_CLASS("_TtC8BullsEye11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSBundle;
-@class NSCoder;
+@class UISlider;
+@class UILabel;
 
 SWIFT_CLASS("_TtC8BullsEye14ViewController")
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UISlider * _Null_unspecified slider;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified targetLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified scoreLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified roundLabel;
 - (void)viewDidLoad;
+- (IBAction)startNewGame;
+- (IBAction)sliderMoved:(UISlider * _Nonnull)slider;
 - (IBAction)showAlert;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

@@ -1,6 +1,8 @@
 version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
 options: "f8d51a8140c55d203a069f08d08b3e6c"
-build_time: [1520484642, 898298000]
+build_time: [1520818248, 866046000]
 inputs:
-  "/Users/chrisconner/Desktop/BullsEye/BullsEye/ViewController.swift": [1520484642, 0]
+  "/Users/chrisconner/Desktop/BullsEye/BullsEye/AboutViewController.swift": [1520818248, 0]
+  "/Users/chrisconner/Desktop/BullsEye/BullsEye/ViewController.swift": [1520817083, 0]
+  "/Users/chrisconner/Desktop/BullsEye/BullsEye/AboutMeViewController.swift": [1520808817, 0]
   "/Users/chrisconner/Desktop/BullsEye/BullsEye/AppDelegate.swift": [1520135800, 0]

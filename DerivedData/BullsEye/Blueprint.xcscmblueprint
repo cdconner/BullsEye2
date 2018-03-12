@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2F97862B7AA411EEEBF1755B05EF67D945B46DB3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "45D68DEF35DDC81055FC42064B081EB562B6CA81" : 0,
+    "2F97862B7AA411EEEBF1755B05EF67D945B46DB3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D1421429-9CB9-4EAA-903E-FAAF4CE58CDB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "45D68DEF35DDC81055FC42064B081EB562B6CA81" : "BullsEye\/BullsEye\/",
+    "2F97862B7AA411EEEBF1755B05EF67D945B46DB3" : "BullsEye\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "BullsEye",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "BullsEye.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cdconner\/BullsEye2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2F97862B7AA411EEEBF1755B05EF67D945B46DB3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cdconner\/BullsEye.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45D68DEF35DDC81055FC42064B081EB562B6CA81"
+    }
+  ]
+}
